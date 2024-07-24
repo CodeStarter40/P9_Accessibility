@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Case3Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cas_3"
+        style="@style/TextAppearance.MaterialComponents.Headline2"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pseudo"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:labelFor="@id/pseudoEdit"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/cd_pseudo_add">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pseudoEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="1dp"
+            android:inputType="text"
+            android:padding="13sp"
+            android:autofillHints="username"
+            android:textSize="15sp"
+            android:textColorHint="@color/hint_color"
+            android:importantForAccessibility="yes"
+            android:contentDescription="@string/cd_pseudo_add" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/validateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/validate"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
