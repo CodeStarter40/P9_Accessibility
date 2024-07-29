@@ -34,6 +34,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:src="@drawable/ic_remove"
+            android:elevation="2dp"
             android:contentDescription="Retirer une unité" />
 
         <TextView
@@ -50,6 +51,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:src="@drawable/ic_add"
+            android:elevation="2dp"
             android:contentDescription="Ajouter une unité"
             />
 
