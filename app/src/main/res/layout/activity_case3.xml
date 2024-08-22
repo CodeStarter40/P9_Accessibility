@@ -38,10 +38,10 @@
             android:inputType="text"
             android:padding="13sp"
             android:autofillHints="username"
-            android:textSize="15sp"
+            android:textSize="21sp"
             android:textColorHint="@color/hint_color"
             android:importantForAccessibility="yes"
-            android:contentDescription="@string/cd_pseudo_add" />
+             />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
